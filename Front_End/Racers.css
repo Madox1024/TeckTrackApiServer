@@ -1,0 +1,250 @@
+html , body 
+{
+   height : 1000 px;
+   width : 350 px; 
+   background-color: #101010;
+
+   font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+} 
+
+#flagcolorid{
+    position: relative;
+}
+#flagcolorid::before{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 6px;
+    left: 6px;
+    top: 6px;
+    width: 80px;
+    background-color: #101010;
+    z-index: 1;
+    background-image: url('ChampCar.PNG');
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div[id*="headers"] div{
+    opacity: 0.6;
+}
+div[id*="racerrecordid"]{
+    padding: 0;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #1f2b3f;
+    position: relative;
+}
+.racerserialnumberid{
+    opacity: 1 !important;
+    color: #E13F49 !important;
+    position: absolute;
+    top: 15px;
+    left: 2px; 
+    text-align: center;
+    font-weight: bold;
+}
+div[id*="racerdataheaderid1"] div{
+    text-transform: uppercase;
+    font-size: 11px !important;
+}
+#racernamedivheader, div[id*="headers"], .racerserialnumberidtop + .racerlapsidtop {
+    margin-left: 34px;
+}
+.racerserialnumberidtop{
+    display: none !important;
+}
+@keyframes animatedFlag {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+#flagcolorid.flag-finish,
+#flagcolorid.flag-checkered{
+    background-image: url('img-flag-checkered.png');
+    background-size: 78px;
+    background-position: 0px 0px;
+	background-repeat: repeat-x;
+	animation: animatedFlag 10s linear infinite;
+}
+#flagcolorid.flag-green{
+    background-color: #2bb500;
+}
+#flagcolorid.flag-yellow{
+    background-color: #ffe400;
+}
+#flagcolorid.flag-red{
+    background-color: #ef403f;
+}
+#flagcolorid.flag-warmup, #flagcolorid.flag-blue{
+    background-color: #00aeef;
+}
+
+
+div
+{
+   font-size:10px;      
+}
+
+#name1 ,#name2, #name3,#name4,
+#name5,#name6,#name7,#name8,#name9,#name10
+   {
+   display:inline-block; font-size:15px;margin-top:7px;color:rgb(255, 255, 255); 
+   }
+
+#racerdataheaderid1
+    {
+    margin-top:10px;
+    font-size:13px;
+    width:350px;
+    height:30px;
+    }
+#headers1,#headers2,#headers3,#headers4,#headers5,#headers6,#headers7,
+#headers8,#headers9,#headers10
+    {
+    margin-top:3px;  
+    }
+
+
+#flagcolorid
+    {
+    width:350px;
+    height:50px;
+    }
+#eleventonracers
+    {
+    width:350px ;
+    height:460px;
+    top:0px;
+    overflow: hidden;
+    }
+   
+#eleventonracers
+    {
+    overflow:   overlay;
+    overflow-x: hidden;
+    } 
+
+#eleventonracers::-webkit-scrollbar
+    {
+    width: 10px;
+    background-color : #1f2b3f;
+    }
+
+#eleventonracers::-webkit-scrollbar-thumb 
+    { 
+    background-color :#9E9E9E; 
+    } 
+
+#onetotenracers
+    {
+    width:350px;
+    height:460px;
+    overflow: hidden;
+    }
+
+
+.racerserialnumberidtop
+    {
+    width : 8% ; 
+    display: inline-block;
+    font-size:15px;     
+    color:white;
+    }
+
+.racerserialnumberid  , .racerserialnumberidheader
+    {
+    width : 8% ; 
+    display: inline-block;
+    font-size:15px;     
+    color:white;
+    }
+    
+.racerlapsidtop
+    {
+    width : 14% ; 
+    display: inline-block;   
+    font-size:15px;     
+    color:white;
+    }
+
+
+.racerlapsid , .racerlapsidheader
+    {
+    width : 11% ; 
+    display: inline-block;   
+    font-size:15px;     
+    color:white;
+    }
+
+.racerlasttimeidtop
+    {
+    width : 25% ; 
+    display: inline-block; 
+    font-size:15px;     
+    color:white;
+    }
+
+.racerlasttimeid , .racerlasttimeidheader{
+    width : 29% ; 
+    display: inline-block; 
+    font-size:15px;     
+    color:white;
+    }
+
+.racerbestlapidtop
+    {
+    width : 23% ; 
+    display: inline-block;
+    font-size:15px;     
+    color:white;
+    }
+
+
+
+.racerbestlapid , .racerbestlapidheader
+    {
+    width : 20% ; 
+    display: inline-block;
+    font-size:15px;     
+    color:white;
+    text-align: center;
+
+    }
+
+.racerbesttimeidtop
+    {
+    width : 25% ; 
+    display: inline-block; 
+    font-size:15px;     
+    color:white;
+    }
+
+.racerbesttimeid , .racerbesttimeidheader 
+    {
+    width : 29% ; 
+    display: inline-block; 
+    font-size:15px;     
+    color:white;
+    }
+#racernamedivheader
+    {
+    height:24px;
+    }
+
+#blankdiv
+    {
+
+    display: none !important;
+    }
+
+/* need a fixed-width font, steal from racehero site */
+div.headers div { font-family: 'Open Sans', sans-serif; }
+/* make times align regardless of how much scope */
+div.headers div.racerlasttimeid, div.headers div.racerbesttimeid { text-align: right; }
+
+div.best > div.racerlapsid, div.best > div.racerlasttimeid, div.best > div.racerbestlapid, div.best > div.racerbesttimeid { color: #0f0 !important; }
+
+

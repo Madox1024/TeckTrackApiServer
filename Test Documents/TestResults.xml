@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resultspage>
+    <label type="bestlapby">616 - Ben Blas 2014 Corvette Z06 (Black and Green)</label>
+    <label type="bestlaptime">1:48.433</label>
+    <label type="eventname">ChampCar Ultimate Championship</label>
+    <label type="flag">green</label>
+    <label type="groupname">ChampCar Endurance Series</label>
+    <label type="laps">233</label>
+    <label type="lapstogo"></label>
+    <label type="leader">616 - Ben Blas 2014 Corvette Z06 (Black and Green)</label>
+    <label type="leaderavgspeed">63.998</label>
+    <label type="leadermargin">6.112</label>
+    <label type="racetime">8:03:39</label>
+    <label type="runname">Sunday 8 Hour</label>
+    <label type="runtype">R</label>
+    <label type="timeofday"> 16:52:21</label>
+    <label type="timetogo"></label>
+    <label type="tracklength">2.200</label>
+    <label type="trackname">Charlotte Motor Speedway</label>
+    <results>
+        <columns marker="Marker" position="Position" positioninclass="Position in class" no="Competitornumber"
+                 transponder="Transponder number" regnumber="Registration number" firstname="First name"
+                 lastname="Last name" fullname="Fullname" class="Class" additional1="Additional field 1"
+                 additional2="Additional field 2" additional3="Additional field 3" additional4="Additional field 4"
+                 additional5="Additional field 5" additional6="Additional field 6" additional7="Additional field 7"
+                 additional8="Additional field 8" laps="Laps" lasttime="Last time" secondlasttime="Second Last time"
+                 thirdlasttime="Third Last time" averagetime="Average time" totaltime="Total time" difference="Diff."
+                 gap="Gap" lastspeed="Last speed" averagespeed="Average speed" besttime="Best time"
+                 bestspeed="Best time" bestinlap="Best time" secondbesttime="Best time" secondbestspeed="2nd Best speed"
+                 secondbestinlap="2nd Best lap" nopitstops="No Pit Stops" lastpitlap="Last Pit Lap" sincepit="Since Pit"
+                 lasttimeofday="Last Passing Time" lasttimeline="Last Passing Timeline" section0="Section time 1"
+                 section1="Section time 2" section2="Section time 3" section3="Section time 4" section4="Section time 5"
+                 section5="Section time 6" section6="Section time 7" section7="Section time 8" section8="Section time 9"
+                 section9="Section time 10" bestsection0="Best Section time 1" bestsection1="Best Section time 2"
+                 bestsection2="Best Section time 3" bestsection3="Best Section time 4"
+                 bestsection4="Best Section time 5" bestsection5="Best Section time 6"
+                 bestsection6="Best Section time 7" bestsection7="Best Section time 8"
+                 bestsection8="Best Section time 9" bestsection9="Best Section time 10"/>
+        <result additional1="" additional2="" additional3="" additional4="" additional5="" additional6="" additional7=""
+                additional8="" averagespeed="63.998" averagetime="1:57.823" bestinlap="203" bestsection0=""
+                bestsection1="" bestsection2="" bestsection3="" bestsection4="" bestsection5="" bestsection6=""
+                bestsection7="" bestsection8="" bestsection9="" bestspeed="68.424" besttime="1:48.433" class="A"
+                difference="" firstname="Ben Blas"
+                fullname="Ben Blas 2014 Corvette Z06 (Black and Green)" gap="" laps="233"
+                lastname="2014 Corvette Z06 (Black and Green)" lastpitstop="195" lastspeed="67.753" lasttime="1:56.896"
+                lasttimeline="Start/Finish" lasttimeofday="16:29:17.415" marker="6" no="616" nopitstops="4" position="1"
+                positioninclass="1" regnumber="4443" secondbestinlap="220" secondbestspeed="68.356"
+                secondbesttime="1:55.864" secondlasttime="1:57.113" section0="" section1="" section2="" section3=""
+                section4="" section5="" section6="" section7="" section8="" section9="" sincepit="38"
+                thirdlasttime="1:57.702" totaltime="8:00:34.839" transponder="3901652"/>
+        <result additional1="" additional2="" additional3="" additional4="" additional5="" additional6="" additional7=""
+                additional8="" averagespeed="63.984" averagetime="1:59.187" bestinlap="215" bestsection0=""
+                bestsection1="" bestsection2="" bestsection3="" bestsection4="" bestsection5="" bestsection6=""
+                bestsection7="" bestsection8="" bestsection9="" bestspeed="69.269" besttime="1:54.337" class="F"
+                difference="6.112" firstname="Bill Strong"
+                fullname="Bill Strong 1995 Cheaty MR2 (Black and Blue)" gap="6.112" laps="233"
+                lastname="1995 Toyota MR2 (Red and Blue)" lastpitstop="176" lastspeed="56.466" lasttime="2:20.261"
+                lasttimeline="Start/Finish" lasttimeofday="16:34:21.424" marker="6" no="999" nopitstops="3" position="2"
+                positioninclass="2" regnumber="4133" secondbestinlap="214" secondbestspeed="69.026"
+                secondbesttime="1:54.739" secondlasttime="2:10.332" section0="" section1="" section2="" section3=""
+                section4="" section5="" section6="" section7="" section8="" section9="" sincepit="57"
+                thirdlasttime="2:00.057" totaltime="8:00:40.951" transponder="702264"/>
+        <result additional1="" additional2="" additional3="" additional4="" additional5="" additional6="" additional7=""
+                additional8="" averagespeed="63.564" averagetime="1:59.841" bestinlap="65" bestsection0=""
+                bestsection1="" bestsection2="" bestsection3="" bestsection4="" bestsection5="" bestsection6=""
+                bestsection7="" bestsection8="" bestsection9="" bestspeed="68.444" besttime="1:55.715" class="EC"
+                difference="1 Lap" firstname="Mike Chisek"
+                fullname="Mike Chisek 1980 John Deer Tractor (Rusty)" gap="1 Lap" laps="232"
+                lastname="1980 VW Bug (Rusty)" lastpitstop="179" lastspeed="65.765" lasttime="2:00.429"
+                lasttimeline="Start/Finish" lasttimeofday="16:30:29.590" marker="6" no="666" nopitstops="3" position="3"
+                positioninclass="3" regnumber="4635" secondbestinlap="102" secondbestspeed="68.140"
+                secondbesttime="1:56.231" secondlasttime="2:00.472" section0="" section1="" section2="" section3=""
+                section4="" section5="" section6="" section7="" section8="" section9="" sincepit="53"
+                thirdlasttime="2:02.212" totaltime="8:01:47.014" transponder="5403559"/>
+        <result additional1="" additional2="" additional3="" additional4="" additional5="" additional6="" additional7=""
+                additional8="" averagespeed="63.322" averagetime="1:56.985" bestinlap="4" bestsection0=""
+                bestsection1="" bestsection2="" bestsection3="" bestsection4="" bestsection5="" bestsection6=""
+                bestsection7="" bestsection8="" bestsection9="" bestspeed="70.709" besttime="1:52.008" class="Z"
+                difference="2 Laps" firstname=""
+                fullname="Dana Morrison 1990 Vespa (Baby Blue)" gap="1 Lap" laps="231"
+                lastname="1990 Vespa (Baby Blue)" lastpitstop="180" lastspeed="69.404" lasttime="1:54.114"
+                lasttimeline="Start/Finish" lasttimeofday="16:30:15.147" marker="6" no="911" nopitstops="5" position="4"
+                positioninclass="1" regnumber="2590" secondbestinlap="40" secondbestspeed="70.573"
+                secondbesttime="1:52.224" secondlasttime="1:54.566" section0="" section1="" section2="" section3=""
+                section4="" section5="" section6="" section7="" section8="" section9="" sincepit="51"
+                thirdlasttime="1:56.202" totaltime="8:01:32.545" transponder="9149496, 1555964"/>
+        <result additional1="" additional2="" additional3="" additional4="" additional5="" additional6="" additional7=""
+                additional8="" averagespeed="63.050" averagetime="1:50.622" bestinlap="27" bestsection0=""
+                bestsection1="" bestsection2="" bestsection3="" bestsection4="" bestsection5="" bestsection6=""
+                bestsection7="" bestsection8="" bestsection9="" bestspeed="73.040" besttime="1:48.433" class="Z"
+                difference="3 Laps" firstname="Mike Morrison" fullname="Mike Morrison 1990 Vespa (Hot Pink)"
+                gap="1 Lap" laps="230" lastname="1990 Vespa (Hot Pink)" lastpitstop="232" lastspeed="68.699"
+                lasttime="1:55.286" lasttimeline="Start/Finish" lasttimeofday="16:30:13.789" marker="6" no="000"
+                nopitstops="7" position="5" positioninclass="4" regnumber="4890" secondbestinlap="21"
+                secondbestspeed="72.941" secondbesttime="1:48.581" secondlasttime="2:01.364" section0="" section1=""
+                section2="" section3="" section4="" section5="" section6="" section7="" section8="" section9=""
+                sincepit="-2" thirdlasttime="2:00.455" totaltime="8:01:31.213" transponder="2852568"/>
+
+    </results>
+</resultspage>
