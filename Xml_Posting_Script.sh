@@ -1,6 +1,6 @@
 while true
 do
-curl --data "@C:\Test Folder\TestResults.xml" http://localhost:7000/upload
+curl -s --data "@Test_Documents\TestResults.xml" http://localhost:7000/upload -w "%{time_total}\n"
 echo $?
 sleep 1
 done

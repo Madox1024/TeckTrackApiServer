@@ -1,4 +1,3 @@
-
 // Converting the relevant data from XmlDataClasses to JsonDataClasses to prep for easy Gson conversion
 
 fun getJsonMasterClass(racePair: Pair<RaceData, MutableMap<String, CarData>>): JsonMasterClass {
