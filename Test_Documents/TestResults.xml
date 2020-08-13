@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <resultspage>
-    <label type="bestlapby">616 - Ben Blas 2014 Corvette Z06 (Black and Green)</label>
-    <label type="bestlaptime">1:48.433</label>
-    <label type="eventname">ChampCar Ultimate Championship</label>
-    <label type="flag">green</label>
-    <label type="groupname">ChampCar Endurance Series</label>
-    <label type="laps">233</label>
+    <label type="bestlapby">4 - Racer 4</label>
+    <label type="bestlaptime">1:19.391</label>
+    <label type="eventname">Test2</label>
+    <label type="flag">none</label>
+    <label type="groupname">Test 2 Group 1</label>
+    <label type="laps">4</label>
     <label type="lapstogo"></label>
-    <label type="leader">616 - Ben Blas 2014 Corvette Z06 (Black and Green)</label>
-    <label type="leaderavgspeed">63.998</label>
-    <label type="leadermargin">6.112</label>
-    <label type="racetime">8:03:39</label>
-    <label type="runname">Sunday 8 Hour</label>
+    <label type="leader">4 - Racer 4</label>
+    <label type="leaderavgspeed">21.583</label>
+    <label type="leadermargin">1.703</label>
+    <label type="racetime">15:40</label>
+    <label type="runname">Run 1</label>
     <label type="runtype">R</label>
-    <label type="timeofday"> 16:52:21</label>
+    <label type="timeofday">16:42:18</label>
     <label type="timetogo"></label>
-    <label type="tracklength">2.200</label>
-    <label type="trackname">Charlotte Motor Speedway</label>
+    <label type="tracklength">1.000</label>
+    <label type="trackname">Test Track</label>
     <results>
         <columns marker="Marker" position="Position" positioninclass="Position in class" no="Competitornumber"
                  transponder="Transponder number" regnumber="Registration number" firstname="First name"
@@ -37,64 +37,113 @@
                  bestsection6="Best Section time 7" bestsection7="Best Section time 8"
                  bestsection8="Best Section time 9" bestsection9="Best Section time 10"/>
         <result additional1="" additional2="" additional3="" additional4="" additional5="" additional6="" additional7=""
-                additional8="" averagespeed="63.998" averagetime="1:57.823" bestinlap="203" bestsection0=""
+                additional8="" averagespeed="21.583" averagetime="2:32.043" bestinlap="4" bestsection0=""
                 bestsection1="" bestsection2="" bestsection3="" bestsection4="" bestsection5="" bestsection6=""
-                bestsection7="" bestsection8="" bestsection9="" bestspeed="68.424" besttime="1:48.433" class="A"
-                difference="" firstname="Ben Blas"
-                fullname="Ben Blas 2014 Corvette Z06 (Black and Green)" gap="" laps="233"
-                lastname="2014 Corvette Z06 (Black and Green)" lastpitstop="195" lastspeed="67.753" lasttime="1:56.896"
-                lasttimeline="Start/Finish" lasttimeofday="16:29:17.415" marker="6" no="616" nopitstops="4" position="1"
-                positioninclass="1" regnumber="4443" secondbestinlap="220" secondbestspeed="68.356"
-                secondbesttime="1:55.864" secondlasttime="1:57.113" section0="" section1="" section2="" section3=""
-                section4="" section5="" section6="" section7="" section8="" section9="" sincepit="38"
-                thirdlasttime="1:57.702" totaltime="8:00:34.839" transponder="3901652"/>
+                bestsection7="" bestsection8="" bestsection9="" bestspeed="45.345" besttime="1:19.391" class="GTL"
+                difference="" firstname="Racer" fullname="Racer 4" gap="" laps="4" lastname="4" lastpitstop="0"
+                lastspeed="45.345" lasttime="1:19.391" lasttimeline="Start/Finish" lasttimeofday="16:36:59.857"
+                marker="1" no="4" nopitstops="" position="1" positioninclass="1" regnumber="De1c44378"
+                secondbestinlap="3" secondbestspeed="25.680" secondbesttime="2:20.187" secondlasttime="2:20.187"
+                section0="" section1="" section2="" section3="" section4="" section5="" section6="" section7=""
+                section8="" section9="" sincepit="4" thirdlasttime="3:58.609" totaltime="11:07.195" transponder="1004"/>
         <result additional1="" additional2="" additional3="" additional4="" additional5="" additional6="" additional7=""
-                additional8="" averagespeed="63.984" averagetime="1:59.187" bestinlap="215" bestsection0=""
+                additional8="" averagespeed="21.528" averagetime="2:32.378" bestinlap="4" bestsection0=""
                 bestsection1="" bestsection2="" bestsection3="" bestsection4="" bestsection5="" bestsection6=""
-                bestsection7="" bestsection8="" bestsection9="" bestspeed="69.269" besttime="1:54.337" class="F"
-                difference="6.112" firstname="Bill Strong"
-                fullname="Bill Strong 1995 Cheaty MR2 (Black and Blue)" gap="6.112" laps="233"
-                lastname="1995 Toyota MR2 (Red and Blue)" lastpitstop="176" lastspeed="56.466" lasttime="2:20.261"
-                lasttimeline="Start/Finish" lasttimeofday="16:34:21.424" marker="6" no="999" nopitstops="3" position="2"
-                positioninclass="2" regnumber="4133" secondbestinlap="214" secondbestspeed="69.026"
-                secondbesttime="1:54.739" secondlasttime="2:10.332" section0="" section1="" section2="" section3=""
-                section4="" section5="" section6="" section7="" section8="" section9="" sincepit="57"
-                thirdlasttime="2:00.057" totaltime="8:00:40.951" transponder="702264"/>
+                bestsection7="" bestsection8="" bestsection9="" bestspeed="44.565" besttime="1:20.781" class="GTS"
+                difference="1.703" firstname="Racer" fullname="Racer 7" gap="1.703" laps="4" lastname="7"
+                lastpitstop="0" lastspeed="44.565" lasttime="1:20.781" lasttimeline="Start/Finish"
+                lasttimeofday="16:37:01.560" marker="1" no="8" nopitstops="" position="2" positioninclass="1"
+                regnumber="De1c8e48" secondbestinlap="3" secondbestspeed="25.709" secondbesttime="2:20.031"
+                secondlasttime="2:20.031" section0="" section1="" section2="" section3="" section4="" section5=""
+                section6="" section7="" section8="" section9="" sincepit="4" thirdlasttime="3:59.485"
+                totaltime="11:08.898" transponder="1008"/>
         <result additional1="" additional2="" additional3="" additional4="" additional5="" additional6="" additional7=""
-                additional8="" averagespeed="63.564" averagetime="1:59.841" bestinlap="65" bestsection0=""
+                additional8="" averagespeed="21.526" averagetime="2:32.425" bestinlap="4" bestsection0=""
                 bestsection1="" bestsection2="" bestsection3="" bestsection4="" bestsection5="" bestsection6=""
-                bestsection7="" bestsection8="" bestsection9="" bestspeed="68.444" besttime="1:55.715" class="EC"
-                difference="1 Lap" firstname="Mike Chisek"
-                fullname="Mike Chisek 1980 John Deer Tractor (Rusty)" gap="1 Lap" laps="232"
-                lastname="1980 VW Bug (Rusty)" lastpitstop="179" lastspeed="65.765" lasttime="2:00.429"
-                lasttimeline="Start/Finish" lasttimeofday="16:30:29.590" marker="6" no="666" nopitstops="3" position="3"
-                positioninclass="3" regnumber="4635" secondbestinlap="102" secondbestspeed="68.140"
-                secondbesttime="1:56.231" secondlasttime="2:00.472" section0="" section1="" section2="" section3=""
-                section4="" section5="" section6="" section7="" section8="" section9="" sincepit="53"
-                thirdlasttime="2:02.212" totaltime="8:01:47.014" transponder="5403559"/>
+                bestsection7="" bestsection8="" bestsection9="" bestspeed="44.712" besttime="1:20.516" class="GTC"
+                difference="1.750" firstname="Racer" fullname="Racer 6" gap="0.047" laps="4" lastname="6"
+                lastpitstop="0" lastspeed="44.712" lasttime="1:20.516" lasttimeline="Start/Finish"
+                lasttimeofday="16:37:01.607" marker="1" no="6" nopitstops="" position="3" positioninclass="1"
+                regnumber="De1c63094" secondbestinlap="3" secondbestspeed="25.400" secondbesttime="2:21.734"
+                secondlasttime="2:21.734" section0="" section1="" section2="" section3="" section4="" section5=""
+                section6="" section7="" section8="" section9="" sincepit="4" thirdlasttime="3:56.312"
+                totaltime="11:08.945" transponder="1006"/>
         <result additional1="" additional2="" additional3="" additional4="" additional5="" additional6="" additional7=""
-                additional8="" averagespeed="63.322" averagetime="1:56.985" bestinlap="4" bestsection0=""
+                additional8="" averagespeed="21.497" averagetime="2:32.843" bestinlap="4" bestsection0=""
                 bestsection1="" bestsection2="" bestsection3="" bestsection4="" bestsection5="" bestsection6=""
-                bestsection7="" bestsection8="" bestsection9="" bestspeed="70.709" besttime="1:52.008" class="Z"
-                difference="2 Laps" firstname=""
-                fullname="Dana Morrison 1990 Vespa (Baby Blue)" gap="1 Lap" laps="231"
-                lastname="1990 Vespa (Baby Blue)" lastpitstop="180" lastspeed="69.404" lasttime="1:54.114"
-                lasttimeline="Start/Finish" lasttimeofday="16:30:15.147" marker="6" no="911" nopitstops="5" position="4"
-                positioninclass="1" regnumber="2590" secondbestinlap="40" secondbestspeed="70.573"
-                secondbesttime="1:52.224" secondlasttime="1:54.566" section0="" section1="" section2="" section3=""
-                section4="" section5="" section6="" section7="" section8="" section9="" sincepit="51"
-                thirdlasttime="1:56.202" totaltime="8:01:32.545" transponder="9149496, 1555964"/>
+                bestsection7="" bestsection8="" bestsection9="" bestspeed="44.273" besttime="1:21.313" class="GC"
+                difference="2.672" firstname="Racer" fullname="Racer 1" gap="0.922" laps="4" lastname="1"
+                lastpitstop="0" lastspeed="44.273" lasttime="1:21.313" lasttimeline="Start/Finish"
+                lasttimeofday="16:37:02.529" marker="1" no="1" nopitstops="" position="4" positioninclass="1"
+                regnumber="De1c147d7" secondbestinlap="3" secondbestspeed="25.274" secondbesttime="2:22.437"
+                secondlasttime="2:22.437" section0="" section1="" section2="" section3="" section4="" section5=""
+                section6="" section7="" section8="" section9="" sincepit="4" thirdlasttime="3:59.547"
+                totaltime="11:09.867" transponder="1001"/>
         <result additional1="" additional2="" additional3="" additional4="" additional5="" additional6="" additional7=""
-                additional8="" averagespeed="63.050" averagetime="1:50.622" bestinlap="27" bestsection0=""
+                additional8="" averagespeed="21.106" averagetime="2:35.777" bestinlap="4" bestsection0=""
                 bestsection1="" bestsection2="" bestsection3="" bestsection4="" bestsection5="" bestsection6=""
-                bestsection7="" bestsection8="" bestsection9="" bestspeed="73.040" besttime="1:48.433" class="Z"
-                difference="3 Laps" firstname="Mike Morrison" fullname="Mike Morrison 1990 Vespa (Hot Pink)"
-                gap="1 Lap" laps="230" lastname="1990 Vespa (Hot Pink)" lastpitstop="232" lastspeed="68.699"
-                lasttime="1:55.286" lasttimeline="Start/Finish" lasttimeofday="16:30:13.789" marker="6" no="000"
-                nopitstops="7" position="5" positioninclass="4" regnumber="4890" secondbestinlap="21"
-                secondbestspeed="72.941" secondbesttime="1:48.581" secondlasttime="2:01.364" section0="" section1=""
-                section2="" section3="" section4="" section5="" section6="" section7="" section8="" section9=""
-                sincepit="-2" thirdlasttime="2:00.455" totaltime="8:01:31.213" transponder="2852568"/>
-
+                bestsection7="" bestsection8="" bestsection9="" bestspeed="43.276" besttime="1:23.187" class="GTV"
+                difference="15.078" firstname="Racer" fullname="Racer 5" gap="12.406" laps="4" lastname="5"
+                lastpitstop="0" lastspeed="43.276" lasttime="1:23.187" lasttimeline="Start/Finish"
+                lasttimeofday="16:37:14.935" marker="1" no="5" nopitstops="" position="5" positioninclass="1"
+                regnumber="De1c57258" secondbestinlap="3" secondbestspeed="26.568" secondbesttime="2:15.500"
+                secondlasttime="2:15.500" section0="" section1="" section2="" section3="" section4="" section5=""
+                section6="" section7="" section8="" section9="" sincepit="4" thirdlasttime="3:58.375"
+                totaltime="11:22.273" transponder="1005"/>
+        <result additional1="" additional2="" additional3="" additional4="" additional5="" additional6="" additional7=""
+                additional8="" averagespeed="20.888" averagetime="2:37.476" bestinlap="4" bestsection0=""
+                bestsection1="" bestsection2="" bestsection3="" bestsection4="" bestsection5="" bestsection6=""
+                bestsection7="" bestsection8="" bestsection9="" bestspeed="41.394" besttime="1:26.969" class="GT"
+                difference="22.203" firstname="Racer" fullname="Racer 9" gap="7.125" laps="4" lastname="9"
+                lastpitstop="0" lastspeed="41.394" lasttime="1:26.969" lasttimeline="Start/Finish"
+                lasttimeofday="16:37:22.060" marker="1" no="9" nopitstops="" position="6" positioninclass="1"
+                regnumber="De1c970d8" secondbestinlap="3" secondbestspeed="26.005" secondbesttime="2:18.437"
+                secondlasttime="2:18.437" section0="" section1="" section2="" section3="" section4="" section5=""
+                section6="" section7="" section8="" section9="" sincepit="4" thirdlasttime="3:58.750"
+                totaltime="11:29.398" transponder="1009"/>
+        <result additional1="" additional2="" additional3="" additional4="" additional5="" additional6="" additional7=""
+                additional8="" averagespeed="20.858" averagetime="2:37.761" bestinlap="4" bestsection0=""
+                bestsection1="" bestsection2="" bestsection3="" bestsection4="" bestsection5="" bestsection6=""
+                bestsection7="" bestsection8="" bestsection9="" bestspeed="41.746" besttime="1:26.235" class="GTL"
+                difference="23.188" firstname="Racer" fullname="Racer 7" gap="0.985" laps="4" lastname="7"
+                lastpitstop="0" lastspeed="41.746" lasttime="1:26.235" lasttimeline="Start/Finish"
+                lasttimeofday="16:37:23.045" marker="1" no="7" nopitstops="" position="7" positioninclass="2"
+                regnumber="De1c7fabe" secondbestinlap="3" secondbestspeed="26.410" secondbesttime="2:16.312"
+                secondlasttime="2:16.312" section0="" section1="" section2="" section3="" section4="" section5=""
+                section6="" section7="" section8="" section9="" sincepit="4" thirdlasttime="3:59.688"
+                totaltime="11:30.383" transponder="1007"/>
+        <result additional1="" additional2="" additional3="" additional4="" additional5="" additional6="" additional7=""
+                additional8="" averagespeed="20.560" averagetime="2:40.199" bestinlap="4" bestsection0=""
+                bestsection1="" bestsection2="" bestsection3="" bestsection4="" bestsection5="" bestsection6=""
+                bestsection7="" bestsection8="" bestsection9="" bestspeed="40.924" besttime="1:27.969" class="GC"
+                difference="33.203" firstname="Racer" fullname="Racer 10" gap="10.015" laps="4" lastname="10"
+                lastpitstop="0" lastspeed="40.924" lasttime="1:27.969" lasttimeline="Start/Finish"
+                lasttimeofday="16:37:33.060" marker="1" no="10" nopitstops="" position="8" positioninclass="2"
+                regnumber="D2c3fcd3f" secondbestinlap="3" secondbestspeed="27.138" secondbesttime="2:12.656"
+                secondlasttime="2:12.656" section0="" section1="" section2="" section3="" section4="" section5=""
+                section6="" section7="" section8="" section9="" sincepit="4" thirdlasttime="3:53.906"
+                totaltime="11:40.398" transponder="1010"/>
+        <result additional1="" additional2="" additional3="" additional4="" additional5="" additional6="" additional7=""
+                additional8="" averagespeed="20.266" averagetime="2:42.914" bestinlap="4" bestsection0=""
+                bestsection1="" bestsection2="" bestsection3="" bestsection4="" bestsection5="" bestsection6=""
+                bestsection7="" bestsection8="" bestsection9="" bestspeed="39.264" besttime="1:31.687" class="GTC"
+                difference="43.359" firstname="Racer" fullname="Racer 3" gap="10.156" laps="4" lastname="3"
+                lastpitstop="0" lastspeed="39.264" lasttime="1:31.687" lasttimeline="Start/Finish"
+                lasttimeofday="16:37:43.216" marker="1" no="3" nopitstops="" position="9" positioninclass="2"
+                regnumber="De1c34613" secondbestinlap="3" secondbestspeed="27.461" secondbesttime="2:11.094"
+                secondlasttime="2:11.094" section0="" section1="" section2="" section3="" section4="" section5=""
+                section6="" section7="" section8="" section9="" sincepit="4" thirdlasttime="4:00.984"
+                totaltime="11:50.554" transponder="1003"/>
+        <result additional1="" additional2="" additional3="" additional4="" additional5="" additional6="" additional7=""
+                additional8="" averagespeed="20.168" averagetime="2:43.816" bestinlap="4" bestsection0=""
+                bestsection1="" bestsection2="" bestsection3="" bestsection4="" bestsection5="" bestsection6=""
+                bestsection7="" bestsection8="" bestsection9="" bestspeed="40.014" besttime="1:29.969" class="GT"
+                difference="46.797" firstname="Racer" fullname="Racer 2" gap="3.438" laps="4" lastname="2"
+                lastpitstop="0" lastspeed="40.014" lasttime="1:29.969" lasttimeline="Start/Finish"
+                lasttimeofday="16:37:46.654" marker="1" no="2" nopitstops="" position="10" positioninclass="2"
+                regnumber="De1c27db8" secondbestinlap="3" secondbestspeed="28.291" secondbesttime="2:07.250"
+                secondlasttime="2:07.250" section0="" section1="" section2="" section3="" section4="" section5=""
+                section6="" section7="" section8="" section9="" sincepit="4" thirdlasttime="4:00.859"
+                totaltime="11:53.992" transponder="1002"/>
     </results>
 </resultspage>

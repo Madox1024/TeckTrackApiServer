@@ -5,7 +5,7 @@ fun getJsonMasterClass(racePair: Pair<RaceData, MutableMap<String, CarData>>): J
         eventName = racePair.first.eventName,
         laps = racePair.first.laps,
         flagStatus = racePair.first.flagStatus,
-        carDataList = getCarList(racePair)
+        carDataList = getCarList(racePair).sortedBy { it.position_in_run }
     )
 }
 
