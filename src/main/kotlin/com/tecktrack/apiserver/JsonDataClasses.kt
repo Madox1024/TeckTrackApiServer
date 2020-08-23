@@ -1,3 +1,5 @@
+package com.tecktrack.apiserver
+
 import com.google.gson.annotations.SerializedName
 
 data class JsonMasterClass(

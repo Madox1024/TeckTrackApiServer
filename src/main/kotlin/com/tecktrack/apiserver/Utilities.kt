@@ -1,6 +1,5 @@
-
+package com.tecktrack.apiserver
 import org.w3c.dom.NodeList
-import java.lang.NumberFormatException
 
 data class Timestamp(
     val hour: Int,
@@ -9,7 +8,7 @@ data class Timestamp(
     val millisecond: Int
 )
 
-// Attempts to parse given string and return com.techtrack.leaderboard.Timestamp class, returns null if Regex fails
+// Attempts to parse given string and return com.techtrack.leaderboard.com.tecktrack.apiserver.Timestamp class, returns null if Regex fails
 fun parseTimestamp(string: String): Timestamp? {
     val timeStampGet = """(\d*?):?(\d{0,2}?):?(\d*)\.?(\d{0,3})$""".toRegex()
     return timeStampGet.matchEntire(string)
@@ -41,7 +40,7 @@ fun String.safeToInt(): Int {
     } catch (ignored: NumberFormatException) {0}
 }
 
-// Converts a com.techtrack.leaderboard.Timestamp to milliseconds
+// Converts a com.techtrack.leaderboard.com.tecktrack.apiserver.Timestamp to milliseconds
 // Int can contain enough milliseconds for for 24 Days
 fun Timestamp?.toMilliseconds(): Int {
     return if (this == null){0} else {

@@ -1,3 +1,5 @@
+package com.tecktrack.apiserver
+
 import com.google.gson.Gson
 import io.javalin.Javalin
 import io.reactivex.rxjava3.schedulers.Schedulers
@@ -40,6 +42,12 @@ class Server {
     private fun xmlHandler(xmlString: String): Pair<RaceData, MutableMap<String, CarData>> {
         val xmlDoc = xmlStringToDoc(xmlString)
 //        sleep(100) // simulated latency
-        return Pair(raceDataMapToClass(getRaceDataMap(xmlDoc)), getCarDataMap(xmlDoc))
+        return Pair(
+            raceDataMapToClass(
+                getRaceDataMap(
+                    xmlDoc
+                )
+            ), getCarDataMap(xmlDoc)
+        )
     }
 }
