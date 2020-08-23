@@ -6,7 +6,6 @@ import java.io.StringReader
 import javax.xml.parsers.DocumentBuilderFactory
 import javax.xml.xpath.XPathConstants.NODESET
 import javax.xml.xpath.XPathFactory
-import kotlin.IllegalArgumentException
 
 
 // File contains:
@@ -15,10 +14,9 @@ import kotlin.IllegalArgumentException
 
 // returns orbits xml document object
 fun xmlStringToDoc(xmlString: String): Document {
-
     val dbFactory = DocumentBuilderFactory.newInstance()
     val dBuilder = dbFactory.newDocumentBuilder()
-    val xmlInput = InputSource(StringReader(xmlString)) // xmlFile.readText() returns a string, replace this w/ API Post
+    val xmlInput = InputSource(StringReader(xmlString)) // xmlFile.readText() returns a string
     return dBuilder.parse(xmlInput)
 }
 

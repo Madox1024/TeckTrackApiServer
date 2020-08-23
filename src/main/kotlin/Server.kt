@@ -26,16 +26,15 @@ class Server {
         xmlSubject
             .observeOn(Schedulers.computation())
             .map { xml ->
-                xmlHandler(xml)
+                xmlHandler(xml) // create subject for xml handler and wrap in
             }.map { racePair ->
                 getJsonMasterClass(racePair)
             }.map { jsonMasterClass ->
                 gson.toJson(jsonMasterClass)
             }.doOnError {
                 it.printStackTrace()
-            }.onErrorResumeWith {
-                xmlSubject
-            }.subscribe(jsonSubject)
+            }.retry()
+            .subscribe(jsonSubject)
     }
 
     private fun xmlHandler(xmlString: String): Pair<RaceData, MutableMap<String, CarData>> {
