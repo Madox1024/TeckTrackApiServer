@@ -17,14 +17,14 @@ html , body
     content: "";
     display: block;
     position: absolute;
-    bottom: 6px;
-    left: 6px;
-    top: 6px;
-    width: 80px;
-    background-color: #101010;
+    bottom: 0px;
+    left: 49px;
+    top: 0px;
+    width: 250px;
+    background-color: #ffffff;
     z-index: 1;
-    background-image: url('ChampCar.PNG');
-    background-size: 60%;
+    background-image: url('CCES.png');
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -111,7 +111,7 @@ div
 #flagcolorid
     {
     width:350px;
-    height:50px;
+    height:57px;
     }
 #eleventonracers
     {

@@ -10,11 +10,11 @@ repositories {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     compile 'io.javalin:javalin:3.9.1'
     compile "org.slf4j:slf4j-simple:1.7.30"
-    implementation 'com.google.code.gson:gson:2.8.6'
-    implementation "io.reactivex.rxjava3:rxjava:3.0.5"
+    compile 'com.google.code.gson:gson:2.8.6'
+    compile "io.reactivex.rxjava3:rxjava:3.0.5"
 }
 
 compileKotlin {
@@ -22,4 +22,15 @@ compileKotlin {
 }
 compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.tecktrack.apiserver.MainKt'
+    }
+    from {
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
 }

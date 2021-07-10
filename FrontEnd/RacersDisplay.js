@@ -1,5 +1,5 @@
 
-var data_url = "http://localhost:7000/";
+var data_url = "http://livetiming.tecktrack.com:7000/";
 
 $(document).ready(function () {
 
@@ -186,6 +186,6 @@ $(document).ready(function () {
   
   // initial load
   fetchData();
-  var ajaxHandler = setInterval(fetchData, 10 * 1000);
+  var ajaxHandler = setInterval(fetchData, 100);
   
 });

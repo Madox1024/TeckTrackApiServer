@@ -18,5 +18,7 @@ data class CarLeaderBoardData(
    val current_lap: Int,
    val best_lap_number: Int,
    val best_lap_time: String,
-   val last_lap_time: String
+   val last_lap_time: String,
+
+   val gap_to_next_pos: Int // this is added data not yet used in the .js
 )

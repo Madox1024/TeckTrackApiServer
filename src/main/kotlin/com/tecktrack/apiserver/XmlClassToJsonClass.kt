@@ -25,7 +25,8 @@ fun getCarList(racePair: Pair<RaceData, MutableMap<String, CarData>>): List<CarL
                 current_lap = carData.lapCount,
                 best_lap_number = carData.bestLap,
                 best_lap_time = carData.bestLapTimeString,
-                last_lap_time = carData.lastLapTimeString
+                last_lap_time = carData.lastLapTimeString,
+                gap_to_next_pos = carData.gapToNextPos
             )
         )
     }

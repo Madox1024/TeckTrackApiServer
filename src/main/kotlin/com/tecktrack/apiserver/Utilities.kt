@@ -1,7 +1,7 @@
 package com.tecktrack.apiserver
 import org.w3c.dom.NodeList
 
-data class Timestamp(
+data class TimestampClass(
     val hour: Int,
     val minute: Int,
     val second: Int,
@@ -9,12 +9,12 @@ data class Timestamp(
 )
 
 // Attempts to parse given string and return com.techtrack.leaderboard.com.tecktrack.apiserver.Timestamp class, returns null if Regex fails
-fun parseTimestamp(string: String): Timestamp? {
+fun parseTimestamp(string: String): TimestampClass? {
     val timeStampGet = """(\d*?):?(\d{0,2}?):?(\d*)\.?(\d{0,3})$""".toRegex()
     return timeStampGet.matchEntire(string)
         ?.destructured
         ?.let { (hour, minute, second, millisecond) ->
-            Timestamp(
+            TimestampClass(
                 hour.safeToInt(),
                 minute.safeToInt(),
                 second.safeToInt(),
@@ -42,7 +42,7 @@ fun String.safeToInt(): Int {
 
 // Converts a com.techtrack.leaderboard.com.tecktrack.apiserver.Timestamp to milliseconds
 // Int can contain enough milliseconds for for 24 Days
-fun Timestamp?.toMilliseconds(): Int {
+fun TimestampClass?.toMilliseconds(): Int {
     return if (this == null){0} else {
         val millisecond = this.millisecond
         val seconds = this.second * 1000
